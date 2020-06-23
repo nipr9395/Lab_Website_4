@@ -56,14 +56,26 @@
 						</tr>
 						<tr>
 							<td>Passing Yards: </td>
+							<td><%= result_2 ? (result_2[0]["passing_yards"]): "Passing Yards:" %></td>
+						</tr>
+						<tr>
+							<td>Avg. Passing Yards: </td>
 							<td><%= result_2 ? (result_2[0]["passing_yards"]/result_3[0]): "Avg. Passing Yards:" %></td>
 						</tr>
 						<tr>
 							<td>Rushing Yards: </td>
+							<td><%= result_2 ? (result_2[0]["rushing_yards"]): "Rushing Yards:" %></td>
+						</tr>
+						<tr>
+							<td>Avg. Rushing Yards: </td>
 							<td><%= result_2 ? (result_2[0]["rushing_yards"]/result_3[0]): "Avg. Rushing Yards:" %></td>
 						</tr>
 						<tr>
 							<td>Receiving Yards: </td>
+							<td><%= result_2 ? (result_2[0]["receiving_yards"]): "Receiving Yards:" %></td>
+						</tr>
+						<tr>
+							<td>Avg. Receiving Yards: </td>
 							<td><%= result_2 ? (result_2[0]["receiving_yards"]/result_3[0]): "Avg. Receiving Yards:" %></td>
 						</tr>
 					</table>
